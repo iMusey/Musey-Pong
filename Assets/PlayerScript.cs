@@ -11,6 +11,7 @@ public class PlayerScript : MonoBehaviour
 
     //Data
     public string username;
+    public string pNum;
     public Color color;
     public int wins;
     public int paddle;

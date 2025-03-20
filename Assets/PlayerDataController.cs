@@ -134,4 +134,5 @@ public class PlayerDataController : MonoBehaviour
         addBtn.SetActive(true);
         confirmBtn.SetActive(false);
     }
+
 }

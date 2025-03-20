@@ -9,6 +9,8 @@ public class CharacterMenu : MonoBehaviour
     public Button exit;
     public Button play;
 
+    public CharacterSelector[] characterSelectors;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,7 @@ public class CharacterMenu : MonoBehaviour
     {
         // set players' paddles to what they currently have selected
         // Send info to the omnipotent one
-
+        //OmnipotentOne.instance.currentPlayers[]
 
         Debug.Log("yay!");
         SceneManager.LoadScene(2);

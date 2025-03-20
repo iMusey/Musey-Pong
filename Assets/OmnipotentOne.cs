@@ -8,12 +8,15 @@ public class OmnipotentOne : MonoBehaviour
 
     // Paddles
     // Prefabs for loading
+    public GameObject ballPFab;
     public GameObject[] paddles = new GameObject[0];
     // Sprites for char select
     public Sprite[] sprites = new Sprite[0];
 
     // Players
+    // stored data
     public List<PlayerScript> players = new List<PlayerScript>();
+    // current players
     public List<PlayerScript> currentPlayers = new List<PlayerScript>();
 
 
